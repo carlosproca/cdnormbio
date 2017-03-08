@@ -31,6 +31,8 @@ install_github( "carlosproca/cdnormbio" )
 Use the standard help in R.
 
 ```R
+library( cdnormbio )
+
 ? normalize.svcd
 ? normalize.mediancd
 ```
@@ -41,6 +43,8 @@ Use the standard help in R.
 A minimal example:
 
 ```R
+library( cdnormbio )
+
 gene.n <- 1000
 sample.n <- 9
 expr.data <- matrix( rnorm( gene.n * sample.n ), nrow = gene.n )
@@ -54,6 +58,8 @@ expr.data.normalized <- normalize.result$data
 Another, a bit more complex, example:
 
 ```R
+library( cdnormbio )
+
 gene.n <- 10000
 sample.n <- 9
 expr.data <- matrix( rnorm( gene.n * sample.n ), nrow = gene.n )
