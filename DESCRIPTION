@@ -1,0 +1,18 @@
+Package: cdnormbio
+Version: 0.1.00
+Date: 2017-03-08
+Title: Condition-Decomposition Normalization for Biological Applications
+Description: Implements Condition-Decomposition methods for data 
+    normalization, such as MedianCD and SVCD Normalization, for the analysis 
+    of data from high-throughput biology assays.
+Author: Carlos P. Roca <carlosproca@gmail.com>
+Maintainer: Carlos P. Roca <carlosproca@gmail.com>
+Authors@R: person( "Carlos P.", "Roca", email = "carlosproca@gmail.com", 
+    role = c( "aut", "cre" ) )
+Depends: R (>= 3.3.0)
+Imports: grDevices, graphics, stats
+Suggests: plotrix
+License: MIT License + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
